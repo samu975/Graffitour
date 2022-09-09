@@ -12,7 +12,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+#title-text--video{
+  text-shadow: black 3px 3px;
+}
 .title-video{
   width: 100vw;
   font-family: 'Permanent Marker', cursive;
