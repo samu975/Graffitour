@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -13,5 +13,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
+.title-video{
+  width: 100vw;
+  font-family: 'Permanent Marker', cursive;
+}
 
