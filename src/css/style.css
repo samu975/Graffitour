@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -12,6 +12,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+article{
+  color: #4d4d4c;
+
+  ;
+}
 #title-text--video{
   text-shadow: black 3px 3px;
 }
@@ -20,3 +25,30 @@
   font-family: 'Permanent Marker', cursive;
 }
 
+#historia-title{
+  font-family: 'Permanent Marker', cursive;
+}
+#historia-title > span{
+  margin-right: 4px;
+  font-size: 23px;
+}
+.historia-comuna-button{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  width: 150px;
+}
+.hr-separacion{
+  height:2px;
+  border-width:0;
+  color: #f6a700;
+  background-color:#f6a700;
+  width: 30%;
+  margin: 10px auto;
+}
+
+#historia{
+  background-color: #ebe6ea;
+}
+#historia-conitnue{
+  background-color: #ebe6ea;
+}

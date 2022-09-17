@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Graffitour comuna 13</title>
   </head>
-  <body class="bg-green-600">
-    <nav class="p-5 bg-white shadow flex justify-center h-14">
+  <body class="bg-white">
+    <nav class="p-5 bg-white shadow-lg flex justify-center h-14 fixed z-40 w-screen ">
       <div class="flex items-center justify-start  cursor-pointer w-full">
         <img class="h-14 inline mr-6" src="./src/images/logo-bg-none.png" alt=""> <h1 class="text-base font-serif">Graffitour comuna 13</h1>
       </div>
@@ -21,10 +21,10 @@
       
       <ul id="menu" class="sm:flex sm:flex-row sm:items-center z-10 sm:justify-end sm:z-auto sm:static absolute bg-white w-full left-0 my-6 sm:my-0 sm:w-auto sm:py-0 py-4 hidden transition-all ease-in duration-500">
         <li class="sm:mx-6 my-6 sm:my-0 text-center">
-          <a class="hover:text-yellow-400 duration-300" href="#">Recorrido</a>
+          <a class="hover:text-yellow-400 duration-300" href="#historia">Historia</a>
         </li >
         <li class="sm:mx-6 my-6 sm:my-0 text-center">
-          <a class="hover:text-yellow-400 duration-300" href="#">Galeria</a>
+          <a class="hover:text-yellow-400 duration-300" href="#">Recorrido</a>
         </li>
         <li class="sm:mx-6 my-6 sm:my-0 text-center">
           <a class="hover:text-yellow-400 duration-300" href="#">Contactenos</a>
@@ -36,8 +36,42 @@
       <video class="main-video z-0 w-screen sm:hidden col-span-1 row-span-full" autoplay muted loop src="./src/videos/background-video.mp4"></video>
       <div class="title-video texto col-span-2 col-start-1 col-end-2 row-start-3 row-end-5 z-10 flex flex-col items-center">
         <h2 id="title-text--video" class=" text-red-600 mx-0 my-auto text-center text-3xl w-10/12 sm:w-6/12">Caminemos juntos por <span class=" text-yellow-400">estas calles</span></h2> 
-        <a href="" class="border-green-600 rounded-xl bg-green-600 my-5 p-3 ">Contactanos</a>
+        <a id="video-button" href="" class="historia-comuna-button bg-green-400 border-green-400 rounded-xl m-4 p-2 text-center font-bold">Contactanos</a>
       </div>
+    </section>
+    <section id="historia" class="hisotria-comun w-screen flex flex-col items-center">
+      <h2 id="historia-title" class="text-black pt-10 text-center text-lg subpixel-antialiased">
+        ¿Que esperas para conocer la <br> <span class="text-red-600">c</span><span class="text-indigo-600">o</span><span class="text-red-600">m</span><span class="text-yellow-500">u</span><span class="text-green-400">n</span><span class="text-orange-400">a</span><span class="text-blue-700">13</span> ?
+      </h2>
+      <article id="historia-comuna-text" class="pt-5 px-8 tracking-wide text-base">
+        Ven y disfruta con nosotros en la comuna 13. Conoce la transformación que vivió el barrio a través del arte y la cultura. Sé parte de esta experiencia, un plan que no te puedes perder!
+      </article>
+      <a id="" class="historia-comuna-button bg-green-400 border-green-400 rounded-xl m-4 p-2 text-center font-bold ">
+        Quiero reservar
+      </a>
+      <hr class="hr-separacion">
+    </section>
+    <section id="historia-conitnue" class="hisotria-comuna w-screen flex flex-col items-center">
+      <h2 id="historia-title" class="text-black pt-3 text-center text-lg subpixel-antialiased">
+          Historia de la comuna 13
+      </h2>
+      <article id="historia-comuna-text" class="py-5 px-8 tracking-wide text-base">
+        En los años 90 esta comuna era uno de los lugares más peligrosos y violentos de Colombia. Se convirtió en el lugar perfecto para el tráfico de drogas por su difícil acceso y sus múltiples callejones. Fue considerada como ‘La cuna de Pablo Escobar’. La comuna se volvió el epicentro de una guerra entre paramilitares, ejército y Pablo Escobar. Estos grupos reclutaban aqui sus sicarios para quienes la carrera criminal era la única forma de poder subir el escalón social.
+      </article>
+      <hr class="hr-separacion">
+      <h2 id="historia-title" class="text-black pt-3 text-center text-lg subpixel-antialiased">
+        Graffitis en lugar de armas
+    </h2>
+    <article id="historia-comuna-text" class="pt-5 px-8 tracking-wide text-base">
+      El desarrollo del turismo de la Comuna 13 es gracias al arte urbano y a las nuevas generaciones que han sustituido las armas por los graffitis. Cada uno de estos espacios artísticos tiene su historia inspirada en el pasado de la comuna y hablan de paz y esperanza. Convirtiéndolo en la galería de arte más grande de Colombia.
+      <br>
+      Además, destaca por sus danzas, músicas o por su gastronomía. En las calles hay varios shows de hip hop; también encontrarás varios restaurantes, bares y miradores con una vista increíble de la ciudad.
+      <br>
+      Nosotros somos una empresa de guías locales nacidos y criados en el sector. Hemos vivir todo el proceso de transformación social del barrio y poco a poco hemos visto la mejora de la calidad de vida por medio del turismo. Queremos que te siéntas como en casa, con el trato de nuestra gente y la berraquera de muestra comunidad pasarás una de las mejores experiencias de tu vida !
+    </article>
+    <a id="" class="historia-comuna-button bg-green-400 border-green-400 rounded-xl m-2 p-2 text-center font-bold ">
+      Quiero vivir esta experiencia
+    </a>
     </section>
 
     
