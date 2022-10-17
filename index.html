@@ -6,7 +6,9 @@
     <link href="./dist/output.css" rel="stylesheet">
     <link href="./src/css/output.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/style.css">
-    <title>Graffitour comuna 13</title>
+    <link rel="stylesheet" href="./src/images/wpp/css/whatsapp.css">
+    <title>Graffitour en la comuna 13</title>
+    <meta name="description" content="">
   </head>
   <body class="bg-white">
     <nav class="p-5 bg-white shadow-lg flex justify-center h-14 fixed z-40 w-screen ">
@@ -24,10 +26,10 @@
           <a class="hover:text-yellow-400 duration-300" href="#historia">Historia</a>
         </li >
         <li class="sm:mx-6 my-6 sm:my-0 text-center">
-          <a class="hover:text-yellow-400 duration-300" href="#">Recorrido</a>
+          <a class="hover:text-yellow-400 duration-300" href="#recorrido">Recorrido</a>
         </li>
         <li class="sm:mx-6 my-6 sm:my-0 text-center">
-          <a class="hover:text-yellow-400 duration-300" href="#">Contactenos</a>
+          <a class="hover:text-yellow-400 duration-300" target="_blank" href="https://www.instagram.com/graffitour13">Contactenos</a>
         </li>
       </ul>
     </nav>
@@ -36,7 +38,7 @@
       <video class="main-video z-0 w-screen sm:hidden col-span-1 row-span-full" autoplay muted loop src="./src/videos/background-video.mp4"></video>
       <div class="title-video texto col-span-2 col-start-1 col-end-2 row-start-3 row-end-5 z-10 flex flex-col items-center">
         <h2 id="title-text--video" class=" text-red-600 mx-0 my-auto text-center text-3xl w-10/12 sm:w-6/12">Caminemos juntos por <span class=" text-yellow-400">estas calles</span></h2> 
-        <a id="video-button" href="https://wa.link/5tn46v" class="historia-comuna-button bg-green-400 border-green-400 rounded-xl m-4 p-2 text-center font-bold">Contactanos</a>
+        <a id="video-button" target="_blank" href="https://wa.link/5tn46v" class="historia-comuna-button bg-green-400 border-green-400 rounded-xl m-4 p-2 text-center font-bold">Contactanos</a>
       </div>
     </section>
     <section id="historia" class="hisotria-comun w-screen flex flex-col items-center">
@@ -46,7 +48,7 @@
       <article id="historia-comuna-text" class="pt-5 px-8 tracking-wide text-base">
         Ven y disfruta con nosotros en la comuna 13. Conoce la transformación que vivió el barrio a través del arte y la cultura. Sé parte de esta experiencia, un plan que no te puedes perder!
       </article>
-      <a href="https://wa.link/5tn46v" id="" class="historia-comuna-button bg-green-400 border-green-400 rounded-xl m-4 p-2 text-center font-bold ">
+      <a href="https://wa.link/5tn46v" target="_blank" id="" class="historia-comuna-button bg-green-400 border-green-400 rounded-xl m-4 p-2 text-center font-bold ">
         Quiero reservar
       </a>
       <hr class="hr-separacion">
@@ -69,11 +71,11 @@
       <br>
       Nosotros somos una empresa de guías locales nacidos y criados en el sector. Hemos vivir todo el proceso de transformación social del barrio y poco a poco hemos visto la mejora de la calidad de vida por medio del turismo. Queremos que te siéntas como en casa, con el trato de nuestra gente y la berraquera de nuestra comunidad pasarás una de las mejores experiencias de tu vida !
     </article>
-    <a href="https://wa.link/5tn46v" id="" class="historia-comuna-button bg-green-400 border-green-400 rounded-xl m-2 p-2 text-center font-bold ">
+    <a href="https://wa.link/5tn46v" target="_blank" id="" class="historia-comuna-button bg-green-400 border-green-400 rounded-xl m-2 p-2 text-center font-bold ">
       Quiero vivir esta experiencia
     </a>
     </section>
-    <section class="recorrido pt-3">
+    <section class="recorrido pt-3" id="recorrido">
       <div class="max-w-sm rounded overflow-hidden shadow-lg my-6 mx-2">
         <img class="w-full" src="./src/images/reducir/escaleras-electricas.jpg" alt="Escaleras electricas">
         <div class="px-6 py-4">
@@ -128,8 +130,33 @@
           </p>
         </div>
       </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg my-6 mx-2">
+        <img class="w-full" src="./src/images/reducir/lisaderos.jpg" alt="Botellas de cerveza artesanal">
+        <div class="px-6 py-4">
+          <h3 class="font-bold text-xl mb-2">Toboganes</h3>
+          <p class="text-gray-700 text-base">
+            Visita y deslízate por los toboganes que se construyeron como alternativa a las escaleras y que contribuyen a la vibra urbana del barrio.
+          </p>
+        </div>
+      </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg my-6 mx-2">
+        <img class="w-full" src="./src/images/reducir/letras-comuna.jpeg" alt="Botellas de cerveza artesanal">
+        <div class="px-6 py-4">
+          <h3 class="font-bold text-xl mb-2">Letras de la Comuna 13</h3>
+          <p class="text-gray-700 text-base">
+              Tomate una foto en las emblematicas letras de la comuna 13 con la mejor vista de la ciudad de Medellin.
+          </p>
+        </div>
+      </div>
     </section>
-    
-    <script type="module" src="./src/js/main.ts"></script>
+    <a class="btn-wsp" target="_blank" href="https://wa.link/5tn46v">
+      <i class="icon-whatsapp"></i>
+    </a>
+
+    <footer class="footer">
+      Designed and developed by <a href="https://www.linkedin.com/in/samuel-rosero/">Samuel Rosero</a>
+    </footer>
+
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
